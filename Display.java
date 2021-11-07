@@ -24,8 +24,8 @@ try
   ResultSet rs = stmt1.executeQuery(sql1);
     while(rs.next()){
         System.out.print("Name: " + rs.getString("name"));
-        System.out.print(", Actor: " + rs.getString("actor"));
-        System.out.print(", Net Gross: " + rs.getString("netgross"));
+        System.out.print(", Actoress: " + rs.getString("actor"));
+        System.out.print(", producer: " + rs.getString("netgross"));
         System.out.println(", Director: " + rs.getString("director"));
         System.out.println(", Year of Release : " + rs.getInt("year_of_release"));
      }
